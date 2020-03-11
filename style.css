@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(219, 120, 7, 0.9) !important;
+}
+
+.citation{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+#quote{
+    font-size: 30px;
+}
+
+.jombotron{
+    min-height: 20vh;
+}
+
+#author{
+    align-self: flex-end;
+    font-size:20px;
+    font-style: italic;
+}
+
+#btn{
+    top: 60px;
+}
